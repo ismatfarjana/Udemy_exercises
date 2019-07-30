@@ -1,6 +1,6 @@
 def longest_word(sentence)
   word = sentence.split
 
-  p word.max_by(&:length)
+  p word.sort_by(&:length).last
 end
 longest_word("i love you")
