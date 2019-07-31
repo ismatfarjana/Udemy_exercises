@@ -11,5 +11,5 @@ def custom_last(arr, num =  0)
   arr[-num..-1]
 end
 
-# p custom_last (arr)
+# p custom_last(arr)
 p custom_first(arr, 4)
